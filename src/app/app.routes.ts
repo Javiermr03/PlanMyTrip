@@ -21,4 +21,8 @@ export const routes: Routes = [
     path: 'costes',
     loadComponent: () => import('./costes/costes.component').then((m) => m.CostesComponent),
   },
+  {
+    path: 'grupoFutbol',
+    loadComponent: () => import('./grupo-fubol/grupo-fubol.component').then((m) => m.GrupoFubolComponent),
+  },
 ];

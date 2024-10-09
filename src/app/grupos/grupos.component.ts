@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {IonicModule} from "@ionic/angular";
 import {addIcons} from "ionicons";
 import {addCircleOutline} from "ionicons/icons";
-
+import {RouterModule} from "@angular/router";
 
 @Component({
   selector: 'app-grupos',
@@ -10,7 +10,7 @@ import {addCircleOutline} from "ionicons/icons";
   styleUrls: ['./grupos.component.scss'],
   standalone: true,
   imports: [
-    IonicModule
+    IonicModule, RouterModule
   ]
 })
 export class GruposComponent  implements OnInit {
