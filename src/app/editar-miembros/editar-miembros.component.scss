@@ -1,19 +1,22 @@
 .card {
-  width: 300px;
-  height: 240px;
+  width: 130px;
+  height: 130px;
   background-color: #e8af54;
   border: #1e1f22 1px solid;
   border-radius: 40px;
 }
-
 .card1 {
-  width: 300px;
-  height: 130px;
+  width: 60px;
+  height: 60px;
+  background-color: #72b2dd;
   border: #1e1f22 1px solid;
-  border-radius: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 20px;
+}
+
+.iconos {
+  font-size: 80px;
+  margin-right: 29px;
+  margin-left: 29px;
 }
 
 .derecha {
@@ -28,9 +31,4 @@
   background-color: #e8af54;
   border: #1e1f22 1px solid;
   border-radius: 20px;
-}
-
-.card1 ion-img {
-  max-width: 100%;
-  max-height: 190%;
 }

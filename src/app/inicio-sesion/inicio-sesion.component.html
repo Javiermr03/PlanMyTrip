@@ -1,0 +1,49 @@
+<ion-content>
+  <ion-row class="centrar" style="margin-top: 190px">
+    <ion-col size="12" class="centrar">
+      <ion-title class="centrar" style="font-family: 'Jambo'; font-size: 50px; color: #e8af54"> Inicio de sesión </ion-title>
+    </ion-col>
+  </ion-row>
+  <ion-row class="centrar" style="border: #e8af54 2px solid; margin-right: 35px; margin-left: 35px; padding-bottom: 35px; border-radius: 15px; background-color: #72b2dd; margin-top: 35px">
+    <ion-col size="9" class="centrar">
+      <ion-input
+        class="custom"
+        type="Nombre"
+        fill="solid"
+        label="Nombre"
+        labelPlacement="floating"
+        helperText="Introduce tu nombre"
+      ></ion-input>
+    </ion-col>
+    <ion-col size="9">
+      <ion-input
+        class="custom"
+        type="email"
+        fill="solid"
+        label="Email"
+        labelPlacement="floating"
+        helperText="Introduce tu correo electrónico"
+        errorText="Correo electrónico no válido"
+        ngModel
+        email
+      ></ion-input>
+    </ion-col>
+    <ion-col size="9" class="centrar">
+      <ion-input
+        class="custom"
+        type="Contraseña"
+        fill="solid"
+        label="Contraseña"
+        labelPlacement="floating"
+        helperText="Introduce tu contraseña"
+      ></ion-input>
+    </ion-col>
+  </ion-row>
+  <ion-row class="centrar" style="margin-top: 85px">
+    <ion-col size="9" class="centrar">
+      <ion-card class="card2 centrar" routerLink="/grupos">
+        <ion-text class="boton" color="tertiary">Iniciar sesión</ion-text>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>

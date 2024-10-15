@@ -1,0 +1,34 @@
+ion-input.custom {
+  --background: #72b2dd;
+  --placeholder-opacity: 0.8;
+  --ion-font-family: "Jambo";
+  font-size: 20px;
+  --highlight-color: #e8af54;
+  --padding-bottom: 0px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --padding-top: 0px;
+
+  &:hover {
+    --background: none;
+  }
+}
+
+.boton {
+  font-family: "Jambo";
+  font-size: 30px;
+}
+
+ion-col {
+  margin: 0;
+  padding: 0;
+}
+
+
+.card2 {
+  width: 250px;
+  height: 60px;
+  background-color: #e8af54;
+  border: #1e1f22 1px solid;
+  border-radius: 20px;
+}

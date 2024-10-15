@@ -1,7 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import {IonicModule} from "@ionic/angular";
 import {addIcons} from "ionicons";
-import {arrowBackOutline, peopleOutline, bicycleOutline, checkmarkDoneOutline, cashOutline} from "ionicons/icons";
+import {
+  arrowBackOutline,
+  peopleOutline,
+  bicycleOutline,
+  checkmarkDoneOutline,
+  cashOutline,
+  homeOutline
+} from "ionicons/icons";
 import {RouterModule} from "@angular/router";
 
 @Component({
@@ -16,7 +23,7 @@ import {RouterModule} from "@angular/router";
 export class FooterComponent  implements OnInit {
 
   constructor() {
-    addIcons({peopleOutline, arrowBackOutline, bicycleOutline, checkmarkDoneOutline, cashOutline})
+    addIcons({homeOutline, arrowBackOutline, bicycleOutline, checkmarkDoneOutline, cashOutline})
   }
 
   ngOnInit() {}

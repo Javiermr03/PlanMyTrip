@@ -2,8 +2,8 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'movil',
-    loadComponent: () => import('./movil/movil.component').then((m) => m.movilComponent),
+    path: '',
+    loadComponent: () => import('./inicio-sesion/inicio-sesion.component').then((m) => m.InicioSesionComponent),
   },
   {
     path: 'grupos',
@@ -24,5 +24,21 @@ export const routes: Routes = [
   {
     path: 'grupoFutbol',
     loadComponent: () => import('./grupo-fubol/grupo-fubol.component').then((m) => m.GrupoFubolComponent),
+  },
+  {
+    path: 'miembrosFutbol',
+    loadComponent: () => import('./miembros-futbol/miembros-futbol.component').then((m) => m.MiembrosFutbolComponent),
+  },
+  {
+    path: 'añadirGrupo',
+    loadComponent: () => import('./anadir-grupo/anadir-grupo.component').then((m) => m.AnadirGrupoComponent),
+  },
+  {
+    path: 'añadirMiembro',
+    loadComponent: () => import('./anadir-miembro/anadir-miembro.component').then((m) => m.AnadirMiembroComponent),
+  },
+  {
+    path: 'editarMiembros',
+    loadComponent: () => import('./editar-miembros/editar-miembros.component').then((m) => m.EditarMiembrosComponent),
   },
 ];

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {IonicModule} from "@ionic/angular";
 import {addIcons} from "ionicons";
 import {bicycleOutline} from "ionicons/icons";
+import {FooterComponent} from "../footer/footer.component";
 
 @Component({
     selector: 'app-actividades',
@@ -9,7 +10,8 @@ import {bicycleOutline} from "ionicons/icons";
     styleUrls: ['./actividades.component.scss'],
     standalone: true,
     imports: [
-        IonicModule
+        IonicModule,
+        FooterComponent
     ]
 })
 export class ActividadesComponent  implements OnInit {

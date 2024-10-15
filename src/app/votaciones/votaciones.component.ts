@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {IonicModule} from "@ionic/angular";
 import {addIcons} from "ionicons";
 import {thumbsUpOutline, thumbsDownOutline, addCircleOutline} from "ionicons/icons";
+import {FooterComponent} from "../footer/footer.component";
 
 @Component({
     selector: 'app-votaciones',
@@ -9,7 +10,8 @@ import {thumbsUpOutline, thumbsDownOutline, addCircleOutline} from "ionicons/ico
     styleUrls: ['./votaciones.component.scss'],
     standalone: true,
     imports: [
-        IonicModule
+        IonicModule,
+        FooterComponent
     ]
 })
 export class VotacionesComponent  implements OnInit {

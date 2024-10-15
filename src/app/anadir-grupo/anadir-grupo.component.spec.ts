@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
-import { movilComponent } from './movil.component';
+import { AnadirGrupoComponent } from './anadir-grupo.component';
 
-describe('MovilComponent', () => {
-  let component: movilComponent;
-  let fixture: ComponentFixture<movilComponent>;
+describe('AnadirGrupoComponent', () => {
+  let component: AnadirGrupoComponent;
+  let fixture: ComponentFixture<AnadirGrupoComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      imports: [movilComponent],
+      imports: [AnadirGrupoComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(movilComponent);
+    fixture = TestBed.createComponent(AnadirGrupoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

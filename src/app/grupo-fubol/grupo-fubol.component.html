@@ -1,5 +1,17 @@
 <ion-content>
-  <ion-row class="centrar" style="margin-top: 120px">
+  <ion-row style="margin-top: 90px">
+    <ion-col size="3" class="centrar">
+      <ion-card class="centrar card2" routerLink="/grupos">
+        <ion-icon name="exit-outline" style="font-size: 40px; transform: rotate(180deg);" color="tertiary"></ion-icon>
+      </ion-card>
+    </ion-col>
+    <ion-col size="9" class="derecha">
+      <ion-card class="card2 centrar" routerLink="/miembrosFutbol">
+        <ion-icon name="people-circle-outline" style="font-size: 45px" color="tertiary"></ion-icon>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-row class="centrar">
     <ion-col size="12" class="centrar">
       <ion-title class="centrar" style="font-family: 'Jambo'; font-size: 50px; color: #e8af54"> Viaje a Almeria </ion-title>
     </ion-col>
@@ -8,6 +20,11 @@
     <ion-card class="card1">
       <ion-img src="assets/icon/Almeria.jpg"/>
     </ion-card>
+  </ion-row>
+  <ion-row class="centrar">
+    <ion-col size="12" class="centrar">
+      <ion-title class="centrar" style="font-family: 'Jambo'; font-size: 28px;"> Del __/__ al __/__ </ion-title>
+    </ion-col>
   </ion-row>
   <ion-row class="centrar">
     <ion-col size="12" class="centrar">
@@ -37,10 +54,11 @@
       </ion-card>
     </ion-col>
   </ion-row>
-  <ion-row class="centrar modulos">
-    <ion-card class="card centrar" style="width: 190px; height: 70px">
+  <ion-row class="centrar">
+    <ion-card class="card centrar" style="width: 190px; height: 70px; margin-top: 20px">
       <ion-card-title style="font-family: 'Jambo'; font-size: 50px; font-weight: bold; text-align: center;">430€</ion-card-title>
     </ion-card>
   </ion-row>
-
 </ion-content>
+<app-footer></app-footer>
+

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {IonicModule} from "@ionic/angular";
+import {FooterComponent} from "../footer/footer.component";
 
 @Component({
     selector: 'app-costes',
@@ -7,7 +8,8 @@ import {IonicModule} from "@ionic/angular";
     styleUrls: ['./costes.component.scss'],
     standalone: true,
     imports: [
-        IonicModule
+        IonicModule,
+        FooterComponent
     ]
 })
 export class CostesComponent  implements OnInit {
